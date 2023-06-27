@@ -1,0 +1,120 @@
+/*
+	Please add your custom CSS in this file. The hex codes for the colours are below.
+
+	Main text color (grey): #838383
+	Dark grey for the speech bubble at the top: #424242
+	Grey border colour for the main content area, and the buttons at the bottom: #DCDCDC
+	Orange colour for the highlighted "only 3 days left" text and the progress bar: #F15E33
+	The background for the part of the progress bar that isn't filled in: #FAFAFA
+	Buttons at the bottom: #838383
+	Green button: #00BE1C
+	Green button border: #01B21A
+	"Why give 50" link: #25A5D8
+*/
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;	
+}
+
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+p{
+	font-size: 1.2rem;
+}
+
+a{
+	margin: 1rem 0;
+	font-style: italic;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #25A5D8;
+}
+.still {
+	background-color: #424242;
+	color: #FAFAFA;
+	width: 50%;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+ 
+.progress {
+	background-color: rgb(192, 192, 192);
+	width: 56%;
+}
+
+.still-needed {
+	background-color: #F15E33;
+	color: #F15E33;
+	padding: 1%;
+	text-align: right;
+	font-size: 10px;
+}
+
+.fill-80 {
+	width: 80%;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid #424242;
+	padding: 1rem;
+}
+
+.card span{
+	color: #F15E33;
+	font-weight: bolder;
+}
+.card-container{
+	text-align: center;
+}
+
+.btn-container{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.first{
+	text-align: left;
+	font-weight: bolder;
+	padding-left: 0.5rem;
+	background-color: #FAFAFA;
+	
+}
+.secondary{
+	background-color: #01B21A;
+	color: #FAFAFA;
+}
+.btn{
+	width: 120px;
+	padding: 0.5rem;
+	font-size: 0.90rem;
+	border: 1px solid #424242;
+}
+.small-card{
+	margin: 1rem 0;
+	width: 56%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.invite{
+	border: 1px solid #424242;
+}
+
